@@ -576,6 +576,8 @@ nav .all-nav .manu-part button:hover{
     font-weight: 700;
    
 }
+
+
 /* read more section end  */
 
 /* Map section start  */
@@ -763,51 +765,70 @@ nav .all-nav .manu-part button:hover{
 }
 
 
-@media (min-width: 320px) and (max-width: 767.99px){
+@media (min-width: 320px) and (max-width: 575.99px){
     .container{
     width: 90%;
     margin: 0 auto;
     }
+    .subnav{
+        display: none;
+    }
    nav{
     background-color: #F40404;
     padding: 15px 0;
+}
+nav .all-nav .logo-part img{
+    width: 100px;
 }
 nav .all-nav .manu-part{
     display: none;
 }
 .banner{
     width: 100%;
-    height: 400px;
+    height: 150px;
 }
 
 .banner .banner-contant{
-    padding-top: 70px;
+    padding-top: 35px;
 }
 .banner .banner-contant h1{
-    font-size: 40px;
-    width: 500px;
+    font-size: 20px;
+    width: 250px;
+   
 }
 
 .banner .banner-contant button{
-    margin-top: 25px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 10px;
+     padding: 10px 20px;
 }
 .text-section{
     padding-top: 40px;
     padding-bottom: 70px;
 }
+.text-section .main-text{
+    flex-direction: column;
+}
 .text-section .main-text .text-left h2{
-    font-size: 25px;
+    font-size: 15px;
+    text-align: center;
 
 }
 .text-section .main-text .text-right p{
-    font-size: 14px;
+    font-size: 10px;
     width: 240px;
+    text-align: center;
+    margin-top: 10px;
 
 }
 .image-section .all-images{
     flex-direction: column;
     gap: 18px;
+}
+.image-section  .all-images .first-img{
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
 }
 
 .services{
@@ -819,30 +840,37 @@ nav .all-nav .manu-part{
 }
 .services .first-columns .text-part{
     width: 100%;
+    margin: 0 auto;
     
 }
 .services .first-columns .text-part .container {
-   margin-left: 100px;
+   margin: 0 auto;
 }
 .services .first-columns .text-part .container h2{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-
+    width: 100%;
 }
 .services .first-columns .text-part .container p{
-    width: 400px;
+    width: 100%;
     text-align: center;
+    margin-top: 20px;   
 }
 
 .services .first-columns .image-part{
     
     width: 100%;
-    height: 250px;
+    height: 200px;
+    margin-bottom: 10px;
 
 }
 .services .first-columns .image-part .overflow h3{
-    font-size: 25px;
-    padding-top: 80px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.services .first-columns .image-part .overflow{
+    width: 100%;
+    height: 200px;
 }
 .services .second{
     margin-top: 1px;
@@ -851,25 +879,44 @@ nav .all-nav .manu-part{
 }
 .services .second .image-part{
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 .services .first-columns .image-part .overflow button{
-    margin-top:  40px;
-    margin-left: 35px;
+    margin-top:  30px;
+    margin-left: 85px;
+    padding: 10px 20px;
 
 }
 .services .second .image-part .overflow h3{
-    font-size: 25px;
-    padding-top: 100px;
+    font-size: 20px;
+    padding-top: 50px;
+    width: 98%;
+}
+.services .second .image-part .overflow{
+  height: 200px;
+}
+.services .second .image-part .overflow button{
+    margin-top:  19px;
+    margin-left: 85px;
+    font-size: 16px;
+    padding: 10px 20px;
+   
+
 }
 .about-section{
+
    display: none;
 }
 
 
 .logo-section{
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15%;
+}
+.logo-section .all-logo{
+   flex-direction: column;
+   gap: 60px;
 }
 .logo-section .all-logo img{
     width: 200px;
@@ -883,6 +930,29 @@ nav .all-nav .manu-part{
     flex-direction: column;
     gap: 10px;
 }
+.read-section .main-read .div-one .main-image{
+    width: 240px;
+    height: 300px;
+}
+.read-section .main-read .div-one .main-image .overlay::after{
+    width: 240px;
+    height: 300px;
+}
+.read-section .main-read .div-one .text-part{
+    margin-top: -280px;
+
+    
+}
+.read-section .main-read .div-one .text-part h4{
+    font-size: 20px;
+    width: 150px;
+    
+}
+.read-section .main-read .div-one .text-part button{
+    font-size: 13px;
+    padding: 8px 18px;
+    margin-top: 25px;
+}
 
 .read-section .main-read .div-one .bottom-part{
     justify-content: center;
@@ -890,14 +960,15 @@ nav .all-nav .manu-part{
 
 .map{
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 .contact-section .text-part{
     flex-direction: column;
     gap: 20px;
 }
 .contact-section .text-part h4{
-    font-size: 22px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .footer-section{
@@ -906,7 +977,7 @@ nav .all-nav .manu-part{
 }
 .footer-section .main-dev{
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr ;
    gap: 80px;
 }
 .footer-section .main-dev .first-dev .icon-part{
@@ -914,4 +985,6 @@ nav .all-nav .manu-part{
 }
 .copy-right p{;
     padding: 25px 0;
+    font-size: 10px;
+}
 }
